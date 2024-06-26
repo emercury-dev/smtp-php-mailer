@@ -18,7 +18,7 @@ where:
 ---------------
 
 ```bash
-composer require emercury/smtp-php-mailer
+composer require emercury-dev/smtp-php-mailer
 ```
 
 ```php

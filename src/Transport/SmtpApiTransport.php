@@ -43,9 +43,7 @@ final class SmtpApiTransport extends AbstractApiTransport
 
         if (200 !== $statusCode) {
             throw new HttpTransportException(
-                'Unable to send an email: '.
-                isset($result['status']['details']) ? implode(', ', $result['status']['details']) : '' .
-                    sprintf(' (code %s).', $result['status']['code']), $response);
+                'Unable to send an email: ' . sprintf(' (code %s).', $result['status']['code']), $response);
         }
 
         $sentMessage->setMessageId($result['data']['messageId']);

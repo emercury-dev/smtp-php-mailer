@@ -1,7 +1,7 @@
 {
   "name": "emercury-dev/smtp-php-mailer",
   "type": "symfony-mailer-bridge",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Emercury Mailer Bridge",
   "license": "MIT",
   "authors": [
