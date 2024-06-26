@@ -1,0 +1,24 @@
+{
+  "name": "emercury-dev/smtp-php-mailer",
+  "type": "symfony-mailer-bridge",
+  "version": "0.1",
+  "description": "Emercury Mailer Bridge",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "emercury",
+      "email": "apps@emercury.net"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "symfony/mailer": "^6.4|^7.0"
+  },
+  "require-dev": {
+    "symfony/http-client": "^6.4|^7.0"
+  },
+  "autoload": {
+    "psr-4": { "Emercury\\Smtp\\": "src/" }
+  },
+  "minimum-stability": "dev"
+}
